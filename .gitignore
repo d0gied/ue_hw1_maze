@@ -1,14 +1,27 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+
+# Unreal generated project files
+*.sln
+*.suo
 *.VC.db
+*.VC.opendb
 *.opensdf
 *.opendb
 *.sdf
-*.sln
-*.suo
 *.xcodeproj
 *.xcworkspace
+*.xcuserstate
+
+# Build artifacts and packaged output
+*.ipa
+*.app
+*.dSYM
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
